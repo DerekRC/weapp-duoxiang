@@ -1,0 +1,36 @@
+/* pages/me/me.wxss */
+
+.header {
+  background: linear-gradient(180deg, rgba(29, 157, 253, 1) 0%, rgba(255, 255, 255, 0) 100%);
+
+}
+
+.userInfo-button{
+  top: 15px;
+  font-size: 32rpx;
+  margin-left: 120rpx;
+  position: absolute;
+  background: transparent;
+  border: 0;
+  line-height: normal;
+}
+.userInfo-button:after{
+  border: 0;
+}
+
+.nameInformation {
+  font-size: 32rpx;
+  margin-left: 25rpx;
+  position: absolute;
+  top: 15px;
+}
+
+.telephone {
+  margin-left: 25rpx;
+  position: absolute;
+  top: 35px;
+}
+
+.fontSize {
+  font-size: 22px;
+}

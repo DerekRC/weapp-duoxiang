@@ -1,0 +1,26 @@
+<!--pages/classify/classify.wxml-->
+<van-row>
+    <van-col span="6">
+        <van-sidebar active-key="{{ activeKey }}" bind:change="onChange" custom-class="sidebar">
+            <van-sidebar-item title="美食" />
+            <van-sidebar-item title="美甲" />
+            <van-sidebar-item title="KTV" />
+            <van-sidebar-item title="美食" />
+            <van-sidebar-item title="美甲" />
+            <van-sidebar-item title="KTV" />
+            <van-sidebar-item title="美食" />
+            <van-sidebar-item title="美甲" />
+            <van-sidebar-item title="KTV" />
+        </van-sidebar>
+    </van-col>
+    <van-col span="18">
+        <van-card
+            bindtap="clickProduct"
+            num="2"
+            price="2.00"
+            desc="描述信息"
+            title="商品标题"
+            thumb="{{ imageURL }}"
+        />
+    </van-col>
+</van-row>

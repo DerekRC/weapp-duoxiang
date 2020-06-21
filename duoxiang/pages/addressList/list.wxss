@@ -1,0 +1,76 @@
+.con {
+  position: relative;
+  height: 1.875rem;
+  line-height: 1.875rem;
+  margin: 2.47rem auto;
+  text-align: center;
+}
+
+.text1 {
+  display: inline-block;
+  font-size: 0.95rem;
+  color: #c1c1c1;
+  padding: 0 1.875rem;
+  text-align: center;
+  margin: 0 auto;
+  position: relative;
+  z-index: 2;
+}
+.text2{
+	width:178px;
+	height:34px;
+	font-size:36px;
+	font-family:PingFang SC;
+	font-weight:bold;
+	color:rgba(255,255,255,1);
+}
+.button1{
+	width:689px;
+	height:91px;
+	background:rgba(30,157,254,1);
+	border-radius:46px;
+}
+
+/*底部添加地址*/
+.add-address {
+	/* border-top: 1px solid #eee; */
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	background: white;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	padding: 12px 0;
+}
+
+.add-address .icon {
+	width: 20px;
+	height: 20px;
+	margin-right: 5px;
+}
+.btn1 {
+  width: 80%;
+  margin-top: 20rpx;
+  background-color: #1E9DFE;
+  color: white;
+  border-radius: 98rpx;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.btn1::after {
+  border-radius: 98rpx;
+  border: 0; 
+}
+ .caption {
+	width:300px;
+	font-size: 15px;
+	color: #fff;
+	font-weight: bold;
+	margin-left: 5px;
+}
+/*.底部添加地址*/

@@ -1,0 +1,59 @@
+<van-tabbar active="{{ active }}"  active-color="#1F9EFE" bind:change="onChange">
+	<van-tabbar-item name="home">
+		<image
+				slot="icon"
+				src="img/首页@2x.png"
+				mode="aspectFit"
+				style="width: 30px; height: 18px;"
+		/>
+		<image
+				slot="icon-active"
+				src="img/首页@2x.png"
+				mode="aspectFit"
+				style="width: 30px; height: 18px;"
+		/>
+		首页
+	</van-tabbar-item>
+	<van-tabbar-item name="classify" >
+		<image
+				slot="icon"
+				src="img/分类@2x.png"
+				mode="aspectFit"
+				style="width: 30px; height: 18px;"
+		/>
+		<image
+				slot="icon-active"
+				src="img/分类@2x.png"
+				mode="aspectFit"
+				style="width: 30px; height: 18px;"
+		/>
+		分类</van-tabbar-item>
+	<van-tabbar-item name="order" >
+		<image
+				slot="icon"
+				src="img/订单@2x.png"
+				mode="aspectFit"
+				style="width: 30px; height: 18px;"
+		/>
+		<image
+				slot="icon-active"
+				src="img/订单@2x.png"
+				mode="aspectFit"
+				style="width: 30px; height: 18px;"
+		/>
+		订单</van-tabbar-item>
+	<van-tabbar-item name="me" >
+		<image
+				slot="icon"
+				src="img/我的@2x.png"
+				mode="aspectFit"
+				style="width: 30px; height: 18px;"
+		/>
+		<image
+				slot="icon-active"
+				src="img/我的@2x.png"
+				mode="aspectFit"
+				style="width: 30px; height: 18px;"
+		/>
+		我的</van-tabbar-item>
+</van-tabbar>

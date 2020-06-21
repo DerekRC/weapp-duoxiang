@@ -1,0 +1,50 @@
+/* pages/distribution/distribution.wxss */
+
+.header {
+  width: 100%;
+  height: 360px;
+  background: linear-gradient(180deg, rgba(30, 157, 254, 1) 0%, rgba(255, 255, 255, 0) 100%);
+  position: relative;
+  margin: -0.53rem auto;
+  text-align: center;
+}
+
+.addressCard {
+  width: 90%;
+  height: 120%;
+  background: rgba(255, 255, 255, 0.9);
+  box-shadow: 0px 9px 13px 0px rgba(80, 156, 255, 0.2);
+  border-radius: 10px;
+  display: inline-block;
+  text-align: center;
+  margin: 280rpx auto;
+  position: relative;
+  z-index: 2;
+}
+
+.text1 {
+  width: 462rpx;
+  height: 32rpx;
+  font-size: 32rpx;
+  font-family: PingFang SC;
+  font-weight: 500;
+  color: rgba(136, 136, 136, 1);
+  line-height: 9px;
+}
+
+.text2 {
+  width: 382rpx;
+  height: 32rpx;
+  font-size: 30rpx;
+  font-family: PingFang SC;
+  font-weight: 400;
+  color: rgba(136, 136, 136, 1);
+  margin-top: 30rpx;
+}
+
+.tuoyuanBig {
+  width: 185rpx;
+  height: 201rpx;
+  background: linear-gradient(90deg, rgba(61, 171, 254, 1), rgba(30, 157, 254, 1));
+  opacity: 0.11;
+}

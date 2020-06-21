@@ -1,0 +1,25 @@
+/* pages/search/search.wxss */
+
+.title{
+    margin-left: 24rpx;
+    margin-top: 20rpx;
+    font-size:28rpx;
+    font-family:PingFang SC;
+    font-weight:500;
+}
+
+
+.tag-container{
+    width:160rpx;
+    height:54rpx;
+    background:rgba(247,247,247,1);
+    border-radius:26rpx;
+}
+
+
+.tag-text{
+    font-size:24rpx;
+    font-family:PingFang SC;
+    font-weight:500;
+    color:rgba(101,101,101,1);
+}

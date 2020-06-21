@@ -1,0 +1,46 @@
+/* pages/hotProduct/hotProduct.wxss */
+.item{
+    /*height: 588rpx;*/
+}
+
+.title{
+    font-size:26rpx;
+    font-family:PingFang SC;
+    font-weight:500;
+    color:rgba(0,0,0,1);
+}
+.text-number{
+    font-size:26rpx;
+    font-family:PingFang SC;
+    font-weight:500;
+    color:rgba(254,64,74,1);
+}
+
+.description{
+    margin-bottom: 18rpx;
+    font-size:22rpx;
+    font-family:PingFang SC;
+    font-weight:500;
+    color:rgba(102,102,102,1);
+}
+
+.price{
+    font-size:26rpx;
+    font-family:PingFang SC;
+    font-weight:500;
+    color:rgba(254,96,103,1);
+}
+
+
+.normal-tab{
+    font-size:240rpx;
+    font-family:PingFang SC;
+    font-weight:500;
+}
+
+.active-tab{
+    font-size:240rpx;
+    font-family:PingFang SC;
+    font-weight:500;
+    color:rgba(30,157,254,1) !important;
+}

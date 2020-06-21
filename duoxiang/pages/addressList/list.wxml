@@ -1,0 +1,16 @@
+<view class="container">
+  <view class="center-container" style="margin-top:300rpx">
+    <image src="img/fangzi.png" style="width:225rpx;height:217rpx"></image>
+  </view>
+  <view class="con">
+    <text class="text1">添加收货地址，轻松购物~</text>
+  </view>
+
+  <!-- 添加按钮 -->
+  <view class="add-address" bindtap="add">
+    <!-- <van-button round type="info" class="caption">添加新地址</van-button> -->
+    <button class="btn1">
+      <view class="caption">添加新地址</view>
+    </button>
+  </view>
+</view>

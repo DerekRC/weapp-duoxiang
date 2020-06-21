@@ -1,0 +1,84 @@
+<!--pages/order/order.wxml-->
+<van-tabs sticky swipeable animated active="{{ active }}" bind:change="onChange" style="height:100%">
+	<van-tab title="全部">
+
+
+
+		<!--        空界面-->
+		<view class="center-container">
+			<view class="void">
+				<view class="center-container">
+					<image src="img/order_white_icon.png" style="width:82rpx;height:84rpx"></image>
+				</view>
+			</view>
+			<text class="text1">您还没有相关订单</text>
+			<text class="text2">可以去看看有哪些想买的</text>
+		</view>
+	</van-tab>
+	<van-tab title="待付款" style="height:100%">
+
+
+        <view class="order-card" wx:for="{{13}}">
+            <view class="row">
+                <image class="order-image mr18" src="http://5b0988e595225.cdn.sohucs.com/images/20190902/979923138ba140c5a89b5bb1af47cf33.jpeg"></image>
+                <view class="column width100" style="height:146rpx">
+                    <view class="row space-between ">
+                        <text class="order-title">挪威进口冰鲜 新鲜三文鱼...</text>
+                        <text class="order-status">待付款</text>
+                    </view>
+                    <text class="card-time">2020-05-13 14:00</text>
+                    <view class="space"></view>
+                    <view class="row space-between">
+                        <text class="card-text">双人套餐系列之...</text>
+                        <text class="card-price">￥9.90</text>
+                    </view>
+                </view>
+            </view>
+            <view class="divider"></view>
+            <view class="row end">
+                <van-button round type="default" size="small">取消订单</van-button>
+                <view style="width:18rpx"></view>
+                <van-button round type="danger" size="small">立即支付</van-button>
+            </view>
+        </view>
+
+
+        <!--        空界面-->
+		<view class="center-container">
+			<view class="void">
+				<view class="center-container">
+					<image src="img/order_white_icon.png" style="width:82rpx;height:84rpx"></image>
+				</view>
+			</view>
+			<text class="text1">您还没有相关订单</text>
+			<text class="text2">可以去看看有哪些想买的</text>
+		</view>
+	</van-tab>
+	<van-tab title="待发货">
+
+		<!--        空界面-->
+		<view class="center-container">
+			<view class="void">
+				<view class="center-container">
+					<image src="img/order_white_icon.png" style="width:82rpx;height:84rpx"></image>
+				</view>
+			</view>
+			<text class="text1">您还没有相关订单</text>
+			<text class="text2">可以去看看有哪些想买的</text>
+		</view>
+	</van-tab>
+	<van-tab title="待评价">
+
+
+		<!--        空界面-->
+		<view class="center-container">
+			<view class="void">
+				<view class="center-container">
+					<image src="img/order_white_icon.png" style="width:82rpx;height:84rpx"></image>
+				</view>
+			</view>
+			<text class="text1">您还没有相关订单</text>
+			<text class="text2">可以去看看有哪些想买的</text>
+		</view>
+	</van-tab>
+</van-tabs>

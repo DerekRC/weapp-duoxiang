@@ -1,0 +1,68 @@
+/* pages/productDetail/productDetail.wxss */
+
+.product-title{
+    font-size:30rpx;
+    font-family:PingFang SC;
+    font-weight:500;
+    color:rgba(0,0,0,1);
+}
+
+.product-content{
+    margin-top: 20rpx;
+    margin-bottom: 32rpx;
+    font-size:22rpx;
+    font-family:PingFang SC;
+    font-weight:500;
+    color:rgba(101,101,101,1);
+}
+
+
+.price{
+    font-size:26rpx;
+    font-family:PingFang SC;
+    font-weight:500;
+    color:rgba(253,95,103,1);
+}
+
+.line{
+    height:1px;
+    background:rgba(203,203,203,1);
+    margin-bottom: 26rpx;
+}
+
+
+.company-name{
+    font-size:22rpx;
+    font-family:PingFang SC;
+    font-weight:500;
+    color:rgba(0,0,0,1);
+}
+
+.company-address{
+    margin-top: 16rpx;
+    font-size:22rpx;
+    font-family:PingFang SC;
+    font-weight:400;
+    color:rgba(101,101,101,1);
+    white-space: nowrap;
+}
+
+.tab-class{
+    font-size:28rpx;
+    font-family:PingFang SC;
+    font-weight:500;
+    color:rgba(101,101,101,1) !important;
+}
+
+.tab-active-class{
+    font-size:28rpx;
+    font-family:PingFang SC;
+    font-weight:500;
+    color:rgba(30,157,253,1) !important;
+}
+
+
+.vip{
+    height: 68rpx;
+    width:100%;
+}
